@@ -1,3 +1,5 @@
+<!-- ADEM MERHOM-->
+
 <?php
 $nom = '';
 $prenom = '';
@@ -118,4 +120,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <button type="submit">S'inscrire</button>
     </form>
 </body>
+
 </html>
