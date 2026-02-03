@@ -72,7 +72,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
     <?php endif; ?>
 
-    <form method="POST" action="">
+    <form method="post" action="">
         <div>
             <label for="nom">Nom</label>
             <input type="text" name="nom" value="<?php echo htmlspecialchars($nom); ?>">
@@ -122,3 +122,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </body>
 
 </html>
+
